@@ -42,5 +42,5 @@ let part_2 () =
   f * d
 
 let print_answer () =
-  Printf.printf "day 2 part 1: %d\n" (part_1 ());
-  Printf.printf "day 2 part 2: %d\n" (part_2 ())
+  Printf.printf "day 02 part 1: %d\n" (part_1 ());
+  Printf.printf "day 02 part 2: %d\n" (part_2 ())

@@ -124,5 +124,5 @@ let part_2 () =
   score !board last_draw
 
 let print_answer () =
-  Printf.printf "day 4 part 1: %d\n" (part_1 ());
-  Printf.printf "day 4 part 2: %d\n" (part_2 ())
+  Printf.printf "day 04 part 1: %d\n" (part_1 ());
+  Printf.printf "day 04 part 2: %d\n" (part_2 ())

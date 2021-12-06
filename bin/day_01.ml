@@ -19,7 +19,5 @@ let part_2 () =
   count_increases window_sums
 
 let print_answer () =
-  print_string "day 1 part 1: ";
-  print_endline (string_of_int (part_1 ()));
-  print_string "day 1 part 2: ";
-  print_endline (string_of_int (part_2 ()))
+  Printf.printf "day 01 part 1: %d\n" (part_1 ());
+  Printf.printf "day 01 part 1: %d\n" (part_1 ())

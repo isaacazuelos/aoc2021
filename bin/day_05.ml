@@ -98,5 +98,5 @@ let part_2 () =
   overlaps board
 
 let print_answer () =
-  Printf.printf "day 04 part 1: %d\n" (part_1 ());
-  Printf.printf "day 04 part 2: %d\n" (part_2 ())
+  Printf.printf "day 05 part 1: %d\n" (part_1 ());
+  Printf.printf "day 05 part 2: %d\n" (part_2 ())

@@ -54,5 +54,5 @@ let part_2 () =
   oxygen_generator_rating * co2_scrubber_rating
 
 let print_answer () =
-  Printf.printf "day 3 part 1: %d\n" (part_1 ());
-  Printf.printf "day 3 part 2: %d\n" (part_2 ())
+  Printf.printf "day 03 part 1: %d\n" (part_1 ());
+  Printf.printf "day 03 part 2: %d\n" (part_2 ())
