@@ -40,3 +40,11 @@ let rec transpose list =
 let int_of_bits bits =
   let go acc bit_is_set = (2 * acc) + if bit_is_set then 1 else 0 in
   List.fold_left go 0 bits
+
+let range start stop =
+  let step = if start > stop then succ else pred in
+  let rec go acc start stop =
+    (* we count down so we don't have to reverse the list after *)
+    if start = stop then stop :: acc else go (stop :: acc) start (step stop)
+  in
+  go [] start stop
