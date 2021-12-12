@@ -1,2 +1,3 @@
 (library
- (name advent_of_code))
+ (name advent_of_code)
+ (libraries str))

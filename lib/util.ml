@@ -48,3 +48,11 @@ let range start stop =
     if start = stop then stop :: acc else go (stop :: acc) start (step stop)
   in
   go [] start stop
+
+let sort_by_key key = List.sort (fun l r -> compare (key l) (key r))
+
+let words = Str.split (Str.regexp " +")
+
+let sum = List.fold_left ( + ) 0
+
+let prod = List.fold_left ( * ) 1
