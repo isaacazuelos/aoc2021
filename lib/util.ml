@@ -56,3 +56,18 @@ let words = Str.split (Str.regexp " +")
 let sum = List.fold_left ( + ) 0
 
 let prod = List.fold_left ( * ) 1
+
+let take n =
+  let rec go acc m list =
+    if n == m then acc
+    else match list with [] -> acc | x :: xs -> go (x :: acc) (succ m) xs
+  in
+  go [] 0
+
+let flip f a b = f b a
+
+let enumerate list =
+  let rec go acc n list =
+    match list with [] -> acc | x :: xs -> go ((n, x) :: acc) (succ n) xs
+  in
+  go [] 0 list

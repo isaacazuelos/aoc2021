@@ -5,5 +5,7 @@ let () =
      Day_04.print_answer ();
      Day_05.print_answer ();
      Day_06.print_answer ();
-     Day_07.print_answer (); *)
-  Day_08.print_answer ()
+     Day_07.print_answer ();
+     Day_08.print_answer ();
+  *)
+  Day_09.print_answer ()
